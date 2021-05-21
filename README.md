@@ -25,9 +25,11 @@ Use dse-submit to start the migration
 
 [GB of memory] = Int value for GB of memory. Note the G needs to be supplied
 
+[SCB Path] = Absolute path to the secure connect bundle provided by Astra
+
 ```bash
 dse -u [username] -p [password] spark-submit --class com.astra.spark.Migration --executor-cores
-[num cores] --num-executors [num executors] --executor-memory [GB of memory]G Migration.jar
+[num cores] --num-executors [num executors] --executor-memory [GB of memory]G --files [SCB Path] Migration.jar
 ```
 
 ## Contributing
