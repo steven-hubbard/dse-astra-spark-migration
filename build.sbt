@@ -48,4 +48,4 @@ assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeSca
 //  ShadeRule.rename("org.apache.commons.csv.**" -> "shaded.org.apache.commons.csv.@1").inAll
 //)
 
-assemblyJarName in assembly := "hotWarmMigration.jar"
+assemblyJarName in assembly := "Migration.jar"
