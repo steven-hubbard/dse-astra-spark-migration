@@ -19,10 +19,10 @@ object Migration {
     val sparkConfAstra = new SparkConf(true)
     sparkConfAstra.setAppName("DSE-ASTRA-MIGRATION")
     sparkConfAstra.set("spark.cassandra.connection.config.cloud.path", "secure-connect-spark-test.zip")
-    sparkConfAstra.set("spark.cassandra.auth.username", "CwNWQvyqPqngorokLrfPbnPF")
-    sparkConfAstra.set("spark.cassandra.auth.password", "3LskpjRKmt8wtbIejPdRSZ0,WWol.K.Irjr26++AAPoMihBg5PCbf8gmh-nAFwfxmM5SO7a91ZPeRymZQuL,KjNr_uyayRs_ZMX-4yr.CZJj3cge0AyuofCQCJlYZAFO")
+    sparkConfAstra.set("spark.cassandra.auth.username", "[username]")
+    sparkConfAstra.set("spark.cassandra.auth.password", "[password]")
     sparkConfAstra.set("spark.dse.continuousPagingEnabled", "false")
-    sparkConfAstra.set("spark.cassandra.connection.localDC", "westus2")
+    sparkConfAstra.set("spark.cassandra.connection.localDC", "[localdc]")
 
     // set value for keyspace and table
     val keyspace = "test_spark_migration"
