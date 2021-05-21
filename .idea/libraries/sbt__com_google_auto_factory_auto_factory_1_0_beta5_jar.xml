@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.google.auto.factory:auto-factory:1.0-beta5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.google.auto.factory/auto-factory/jars/auto-factory-1.0-beta5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.google.auto.factory/auto-factory/srcs/auto-factory-1.0-beta5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

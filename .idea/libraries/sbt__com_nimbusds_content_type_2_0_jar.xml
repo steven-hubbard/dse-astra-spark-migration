@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.nimbusds:content-type:2.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.nimbusds/content-type/jars/content-type-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.nimbusds/content-type/srcs/content-type-2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.linguafranca.pwdb:KeePassJava2-simple:2.1.4:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.linguafranca.pwdb/KeePassJava2-simple/jars/KeePassJava2-simple-2.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.linguafranca.pwdb/KeePassJava2-simple/srcs/KeePassJava2-simple-2.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

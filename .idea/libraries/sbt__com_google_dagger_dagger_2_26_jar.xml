@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.google.dagger:dagger:2.26:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.google.dagger/dagger/jars/dagger-2.26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.google.dagger/dagger/srcs/dagger-2.26-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

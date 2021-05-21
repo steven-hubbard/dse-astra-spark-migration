@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.gridkit.jvmtool:sjk-nps:0.3:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.gridkit.jvmtool/sjk-nps/jars/sjk-nps-0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.gridkit.jvmtool/sjk-nps/srcs/sjk-nps-0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

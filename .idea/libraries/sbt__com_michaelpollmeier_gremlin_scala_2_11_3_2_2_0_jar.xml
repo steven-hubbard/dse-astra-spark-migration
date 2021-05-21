@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.michaelpollmeier:gremlin-scala_2.11:3.2.2.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.michaelpollmeier/gremlin-scala_2.11/jars/gremlin-scala_2.11-3.2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.michaelpollmeier/gremlin-scala_2.11/srcs/gremlin-scala_2.11-3.2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

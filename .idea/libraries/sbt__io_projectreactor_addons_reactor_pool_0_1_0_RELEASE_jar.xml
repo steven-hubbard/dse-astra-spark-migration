@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: io.projectreactor.addons:reactor-pool:0.1.0.RELEASE:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.projectreactor.addons/reactor-pool/jars/reactor-pool-0.1.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.projectreactor.addons/reactor-pool/srcs/reactor-pool-0.1.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
