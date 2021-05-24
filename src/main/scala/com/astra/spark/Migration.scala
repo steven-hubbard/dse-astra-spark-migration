@@ -15,15 +15,6 @@ object Migration {
 
     val sc = spark.sparkContext
 
-    // Set Up Astra Spark Conf
-    val sparkConfAstra = new SparkConf(true)
-    sparkConfAstra.setAppName("DSE-ASTRA-MIGRATION")
-    sparkConfAstra.set("spark.cassandra.connection.config.cloud.path", "[SCB from Astra]")
-    sparkConfAstra.set("spark.cassandra.auth.username", "[username]")
-    sparkConfAstra.set("spark.cassandra.auth.password", "[password]")
-    sparkConfAstra.set("spark.dse.continuousPagingEnabled", "false")
-    sparkConfAstra.set("spark.cassandra.connection.localDC", "[localdc]")
-
     // set value for keyspace and table
     val keyspace = "test_spark_migration"
     val table = "data_table"
@@ -33,6 +24,15 @@ object Migration {
     val source = sc.cassandraTable(s"$keyspace", s"$table")
 
     {
+      // Set Up Astra Spark Conf
+      val sparkConfAstra = new SparkConf(true)
+      sparkConfAstra.setAppName("DSE-ASTRA-MIGRATION")
+      sparkConfAstra.set("spark.cassandra.connection.config.cloud.path", "[SCB zip file name only]")
+      sparkConfAstra.set("spark.cassandra.auth.username", "[username]")
+      sparkConfAstra.set("spark.cassandra.auth.password", "[password]")
+      sparkConfAstra.set("spark.dse.continuousPagingEnabled", "false")
+      sparkConfAstra.set("spark.cassandra.connection.localDC", "[localdc]")
+
       //set connector as Astra instead of default DSE
       implicit val c = CassandraConnector(sparkConfAstra)
 
